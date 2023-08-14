@@ -1,0 +1,13 @@
+{
+    "name": "ResumeManager",
+    "alias": "resumemanager",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ResumeManager\\Providers\\ResumeManagerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,13 @@
+{
+    "name": "CommentSystem",
+    "alias": "commentsystem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CommentSystem\\Providers\\CommentSystemServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

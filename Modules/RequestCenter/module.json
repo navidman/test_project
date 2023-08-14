@@ -1,0 +1,13 @@
+{
+    "name": "RequestCenter",
+    "alias": "requestcenter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\RequestCenter\\Providers\\RequestCenterServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

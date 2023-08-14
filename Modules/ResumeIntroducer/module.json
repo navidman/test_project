@@ -1,0 +1,13 @@
+{
+    "name": "ResumeIntroducer",
+    "alias": "resumeintroducer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ResumeIntroducer\\Providers\\ResumeIntroducerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

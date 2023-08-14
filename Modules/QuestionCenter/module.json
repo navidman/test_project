@@ -1,0 +1,13 @@
+{
+    "name": "QuestionCenter",
+    "alias": "questioncenter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\QuestionCenter\\Providers\\QuestionCenterServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

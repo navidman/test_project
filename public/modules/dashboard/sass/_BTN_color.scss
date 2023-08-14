@@ -1,0 +1,64 @@
+/* Button */
+.panel-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #ffffff;
+    transition: .3s;
+
+    &:hover {
+        color: #ffffff;
+    }
+
+    .btn-icon {
+        position: relative;
+        top: 4px;
+        margin: 0 10px 0 0;
+        @include inline_middle();
+    }
+
+    &.left {
+        .btn-icon {
+            margin: 0 0 0 10px;
+        }
+    }
+
+    &.right {
+        direction: rtl;
+    }
+
+    $colorList: "grey" #404040,
+    "blue" #027fdf,
+    "red" #c11600,
+    "green-light" #49b953,;
+
+    /* Color Auto Set */
+    @each $i in $colorList {
+        &.btn-fill-color-#{nth($i,1)} {
+            background-color: nth($i, 2);
+
+            &:hover {
+                background-color: darken(nth($i, 2), 7);
+            }
+        }
+
+
+        &.btn-ghost-color-#{nth($i,1)} {
+            border: solid 1px nth($i, 2);
+            color: nth($i, 2);
+
+            &:hover {
+                border: solid 1px darken(nth($i, 2), 7);
+                color: darken(nth($i, 2), 7);
+            }
+        }
+
+        &.btn-border-color-#{nth($i,1)} {
+            border: solid 1px nth($i, 2) !important;
+
+            &:hover {
+                border: solid 1px darken(nth($i, 2), 7) !important;
+            }
+        }
+    }
+}

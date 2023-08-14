@@ -1,0 +1,13 @@
+{
+    "name": "ConsultationRequest",
+    "alias": "consultationrequest",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ConsultationRequest\\Providers\\ConsultationRequestServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

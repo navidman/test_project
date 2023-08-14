@@ -1,0 +1,13 @@
+{
+    "name": "SmsHandler",
+    "alias": "smshandler",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SmsHandler\\Providers\\SmsHandlerServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

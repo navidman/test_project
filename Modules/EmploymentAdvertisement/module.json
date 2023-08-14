@@ -1,0 +1,13 @@
+{
+    "name": "EmploymentAdvertisement",
+    "alias": "employmentadvertisement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\EmploymentAdvertisement\\Providers\\EmploymentAdvertisementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

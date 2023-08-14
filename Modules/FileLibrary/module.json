@@ -1,0 +1,13 @@
+{
+    "name": "FileLibrary",
+    "alias": "filelibrary",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FileLibrary\\Providers\\FileLibraryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

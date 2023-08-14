@@ -1,0 +1,11 @@
+{
+    "name": "ResumeMetaData",
+    "alias": "resumemetadata",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ResumeMetaData\\Providers\\ResumeMetaDataServiceProvider"
+    ],
+    "files": []
+}
